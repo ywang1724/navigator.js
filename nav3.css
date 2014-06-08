@@ -1,0 +1,13 @@
+/*设置任意多级导航通用样式*/
+.nav * { margin:0; padding:0; }
+.nav { width:480px; height:30px; background-color:#51ADED; margin:0 auto; }
+.nav ul { list-style-type:none; background-color:#51ADED; }
+.nav ul ul { border:1px solid #1D71B6; position:absolute; top:30px; left:0px; }
+.nav ul ul ul { top:0px; left:120px; }
+.nav li { height:30px; width:120px; position:relative; }
+.nav li:hover { background-color:#1D71B6; }
+.nav a { text-decoration:none; display:block; color:#FFFFFF; line-height:30px; text-align:center; }
+.nav a:hover { font-weight:bold; background-color:orange; }
+.nav > ul > li { float:left; }
+.nav ul li > ul { display:none; }
+.nav ul li:hover > ul { display:block; }
